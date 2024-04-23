@@ -372,12 +372,12 @@ function SettingsModal(props: {
         'Xenova/whisper-tiny': [41, 152],
         'Xenova/whisper-base': [77, 291],
         'Xenova/whisper-small': [249],
-        'Xenova/whisper-medium': [776],
-
-        // Distil Whisper (English-only)
-        'distil-whisper/distil-medium.en': [402],
-        'distil-whisper/distil-large-v2': [767],
+        'GuideU/whisper-mobi-240418-onnx': [0, 776],
+        // // Distil Whisper (English-only)
+        // 'distil-whisper/distil-medium.en': [402],
+        // 'distil-whisper/distil-large-v2': [767],
     };
+    console.log(models)
     return (
         <Modal
             show={props.show}
